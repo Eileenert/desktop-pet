@@ -1,0 +1,5 @@
+autopep8==2.0.2
+Pillow==9.4.0
+pycodestyle==2.10.0
+pywin32==305
+tk==0.1.0
