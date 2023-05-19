@@ -1,4 +1,4 @@
-#! path/to/interpreter
+#!C:/Users/eilee/Documents/Cours/informatique/desktop pet/pet_venv/Scripts/pythonw.exe
 # first line selects a python interpreter
 # the file is in .pyw to hide terminal
 import tkinter as tk
@@ -36,17 +36,12 @@ class Interface(tk.Frame):
             from win32api import GetMonitorInfo, MonitorFromPoint, GetSystemMetrics
 
             monitor_info = GetMonitorInfo(MonitorFromPoint((0, 0)))
-            monitor_area = monitor_info.get("Monitor")
             work_area = monitor_info.get("Work")
 
-            # find something better for self.taskbar_y, something more precise
-            self.taskbar_y = self.h - (monitor_area[3]-work_area[3]) - 92
+            # 128 (height of the window)/ 36 -> replace the image for the axolotl to touch the taskbar
+            self.taskbar_y =work_area[3] - (128-36)
             x = f"+400+{self.taskbar_y}"
 
-            # width screen
-            self.width_screen = GetSystemMetrics(0)
-            # height screen
-            self.height_screen = GetSystemMetrics(1)
             # task bar y
             self.tby = self.taskbar_y
         except:
