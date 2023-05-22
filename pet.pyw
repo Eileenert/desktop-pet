@@ -1,13 +1,9 @@
-#!C:/Users/eilee/Documents/Cours/informatique/desktop pet/pet_venv/Scripts/pythonw.exe
-# first line selects a python interpreter
-# the file is in .pyw to hide terminal
 import tkinter as tk
 import os
 import PIL as pil
 from PIL import Image, ImageTk
 import random
-os.chdir(f"{os.path.dirname(__file__)}")
-
+os.chdir(f"{os.path.dirname(__file__)}") #to remove when building a msi
 
 class Interface(tk.Frame):
     """our main window
@@ -41,6 +37,11 @@ class Interface(tk.Frame):
             # 128 (height of the window)/ 36 -> replace the image for the axolotl to touch the taskbar
             self.taskbar_y =work_area[3] - (128-36)
             x = f"+400+{self.taskbar_y}"
+            
+            # width screen
+            self.width_screen = GetSystemMetrics(0)
+            # height screen
+            self.height_screen = GetSystemMetrics(1)
 
             # task bar y
             self.tby = self.taskbar_y
