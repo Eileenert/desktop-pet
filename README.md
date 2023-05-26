@@ -71,3 +71,8 @@ Unfortunately, I haven't had time to do a bonus yet.
 
 ### Code explanation
 coming soon...
+
+### possible improvements
+I can still improve a lot of things.
+I can add colors, a death animation, create others animals that aren't axolotls. I can add mini-games or windows interactions.
+Also, I could create a test file like for example with unittest.
