@@ -4,7 +4,7 @@
   <img src="images/a.png" width="550" title="example">
 </p>
 
-Download link: [Desktop pet-1-win64.msi](https://github.com/Eileenert/desktop-pet/blob/master/Desktop%20pet-1-win64.msi)
+Download: [Desktop pet-1-win64.msi](https://github.com/Eileenert/desktop-pet/blob/master/Desktop%20pet-1-win64.msi)
 ### Introduction
 
 A desktop pet is a virtual animal that will wander around the taskbar of
