@@ -3,19 +3,19 @@
 
 ### Introduction
 
-Un desktop pet est un animal virtuel qui va se balader sur la barre des tâches de
-l’ordinateur. Les plus connus sont les personnages [*Shimeji*](https://shimejis.xyz/) ou le *desktop goose*
-inspiré du jeu [*Untitled Goose*](https://goose.game/).
+A desktop pet is a virtual animal that will wander around the taskbar of
+the computer. The best known are the [*Shimeji*](https://shimejis.xyz/) or the *desktop goose*
+inspired by the game [*Untitled Goose*](https://goose.game/).
 
-Mon animal est un axolotl tout mignon. Je me suis inspirée de cette [image](https://pbs.twimg.com/media/EzZm4pXVoAQJSw-.jpg:large), pour créer les gifs sur
+My pet is a very cute axolotl. I was inspired by this [picture](https://pbs.twimg.com/media/EzZm4pXVoAQJSw-.jpg:large), to create the gif on
 [*Piskel*](https://www.piskelapp.com/).
 
-J’ai choisi ce sujet, car j’ai toujours voulu faire un desktop pet moi-même, mon propre
-animal personnalisé.
+I chose this topic because I always wanted to make a desktop pet myself, my own
+custom pet.
 
-J’ai utilisé le langage de programmation Python.
+I used the Python programming language.
 
-Les modules à télécharger sont énoncés dans le fichier requirements.txt.
+The modules to download are listed in the requirements.txt file with their version.
 
 ### Animations :
 
@@ -23,51 +23,51 @@ Les modules à télécharger sont énoncés dans le fichier requirements.txt.
   * frames : 3
   * fps : 1
 
-* dormir → se lever
+* sleep → waking up
   * frames : 10
   * fps : 3
 
-* normal → dormir
+* normal → sleep
   * frames : 8
   * fps : 3
 
-* marcher (droite et gauche)
+* walk (right and left)
   * frames : 3
   * fps : 2 
 
-* dormir
+* sleep
   * frames : 5
   * fps : 2
 
-* manger
+* eat
   * frames : 8
   *  fps: 5
 
-* refus
+* refusal
   * frames : 4
   * fps : 3
 
-* heureux
+* happy
   * frames : 4
   * fps: 3
 
-* fantôme
+* ghost
   * frames : 5
   * fps : 4
 
-* nage
+* swim
   * frames : 5
   * fps : 3
 
-* colère
+* angry
   * frames : 5
   * fps : 2
 
 “bonus”:
-* mini-jeu
-* interagir avec les fenêtres
+* mini-game
+* interact with windows
 
-Malheureusement, je n’ai pas encore eu le temps de faire un bonus.
+Unfortunately, I haven't had time to do a bonus yet.
 
-### Explication du code
-coming...
+### Code explanation
+coming soon...
