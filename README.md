@@ -1,5 +1,8 @@
 # desktop-pet
 
+<p align="middle">
+  <img src="images/a.png" width="550" title="example">
+</p>
 
 ### Introduction
 
