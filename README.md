@@ -64,8 +64,10 @@ Les modules à télécharger sont énoncés dans le fichier requirements.txt.
   * fps : 2
 
 “bonus”:
+* mini-jeu
+* interagir avec les fenêtres
 
-• mini-jeu
+Malheureusement, je n’ai pas encore eu le temps de faire un bonus.
 
-• interagir avec les fenêtres
-
+### Explication du code
+coming...
