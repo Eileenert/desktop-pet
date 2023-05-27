@@ -73,8 +73,6 @@ The modules to download are listed in the requirements.txt file with their versi
 
 Unfortunately, I haven't had time to do a bonus yet.
 
-### Code explanation
-coming soon...
 
 ### possible improvements
 I can still improve a lot of things.
